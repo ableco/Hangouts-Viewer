@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                min-width: 200px;
+                height: 75px;
+                overflow-x: hidden;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+
+            }
+            .hangout-section {
+              width: 100%;
+            }
+            input {
+              margin-bottom: 15px;
+            }
+            input#hangout-join {
+                width: 100%;
+                background-color: #53a93f;
+                color: white;
+                font-size: 14px;
+                border: 1px solid transparent;
+            }
+        </style>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <form id="hangout" autocomplete="off">
+
+          <div>
+            <label for="hangout-name">Hangout:
+            <input type="text" id="hangout-name" name="hangout-name" />
+            </label>
+          </div>
+
+          <div>
+            <label for="hangout-present">Presenting: <input type="checkbox" id="hangout-present" name="hangout-present" />
+            </label>
+          </div>
+
+          <div>
+            <input id="hangout-join" type="submit" value="Join Hangout">
+          </div>
+        </form>
+    </body>
+</html>

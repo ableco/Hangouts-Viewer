@@ -5,7 +5,8 @@ Hangouts Chrome Extension
   You have the ability to join as a presenter or as the default viewer
 
 - How to install:
-  Download the hangouts-viewer.crx file
+
+  Download the hangouts-viewer.crx file: https://github.com/ableco/hangouts-viewer/raw/master/hangouts-viewer.crx
   Drag the file into your chrome extensions to install
 
 - Screenshot:
